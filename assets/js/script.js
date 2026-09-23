@@ -49,8 +49,8 @@ const projects = [
   {
     "name": "Movie Ticket Booking",
     "desc": "Full-stack web application for online movie ticket booking with seat layout selection, admin panel, automated seat generation, and QR code ticket generation.",
-    "image": "movieticketbooking",
     "category": "fullstack",
+      "image" : "https://priya-rajesh2614.github.io/my-portfolio/assets/image/movieticketbooking.PNG",
     "links": {
       "view": "https://lnkd.in/p/g9TK_VYy",
       "code": "https://github.com/priya-rajesh2614/moviebooking-fronend"
@@ -59,8 +59,8 @@ const projects = [
   {
     "name": "Splitwise Clone",
     "desc": "Expense manager built with Spring Boot, React, and PostgreSQL featuring group settlements, balance calculation, and an integrated AI spending insights agent.",
-    "image": "splitwiseclone",
     "category": "fullstack",
+        "image" : "https://priya-rajesh2614.github.io/my-portfolio/assets/image/splitwiseclone.PNG",
     "links": {
       "view": "https://lnkd.in/p/guy2urhF",
       "code": "https://github.com/priya-rajesh2614/splitwise-clone" 
@@ -145,7 +145,7 @@ function showProjects(projects) {
     projects.forEach(project => {
         projectHTML += `
         <div class="box tilt">
-      <img draggable="false" src="assets/image/${project.image}.png" alt="project" />
+      <img draggable="false" src="${project.image}" alt="project" />
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>
