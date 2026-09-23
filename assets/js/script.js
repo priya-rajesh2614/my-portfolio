@@ -46,28 +46,28 @@ const skills = [
 ]
 
 const projects = [
-    {
-      "name": "Instagram MERN",
-      "desc": "Full-Stack Instagram clone built using MERN stack and realtime chat with the help of socket.iO",
-      "image": "instagrammern",
-      "category": "mern",
-      "links": {
-        "view": "",
-        "code": ""
-      }
-    },
-    {
-      "name": "Flipkart MERN",
-      "desc": "Full-Stack Flipkart with Admin Dashboard and Paytm Payment Gateway. MERN Stack WebApp, ready to use for business.",
-      "image": "flipkartmern",
-      "category": "mern",
-      "links": {
-        "view": "",
-        "code": ""
-      }
-    },
-    
-  ]
+  {
+    "name": "Movie Ticket Booking",
+    "desc": "Full-stack web application for online movie ticket booking with seat layout selection, admin panel, automated seat generation, and QR code ticket generation.",
+    "image": "movieticketbooking",
+    "category": "fullstack",
+    "links": {
+      "view": "https://lnkd.in/p/g9TK_VYy",
+      "code": "https://github.com/priya-rajesh2614/moviebooking-fronend"
+    }
+  },
+  {
+    "name": "Splitwise Clone",
+    "desc": "Expense manager built with Spring Boot, React, and PostgreSQL featuring group settlements, balance calculation, and an integrated AI spending insights agent.",
+    "image": "splitwiseclone",
+    "category": "fullstack",
+    "links": {
+      "view": "https://lnkd.in/p/guy2urhF",
+      "code": "https://github.com/priya-rajesh2614/splitwise-clone" 
+    }
+  }
+];
+
   
 
 $(document).ready(function () {
